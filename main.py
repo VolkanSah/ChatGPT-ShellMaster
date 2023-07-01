@@ -1,6 +1,3 @@
-# ChatGPT Shellmaster by S. Volkan Kücükbudak
-# Freedom for the the world! 
-# https://github.com/VolkanSah
 import asyncio
 import sys
 import json
@@ -9,7 +6,7 @@ import requests
 import quart
 import quart_cors
 from quart import request
-# import subprocess
+#import subprocess
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
