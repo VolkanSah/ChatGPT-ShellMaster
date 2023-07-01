@@ -15,7 +15,7 @@ See [ChatGPT Shellmaster in GPT4](img/shellmaster.png)
 ### Overview
 Logo | Name | System
 -- | -- | --
-![Logo Cross-Platform Command Execution Plugin](logo.png) |  Cross-Platform Command Execution Plugin | Unix/linux
+![Logo Cross-Platform Command Execution Plugin](logo.png) |  ChatGPT-ShellMaster Cross-Platform Command Execution Plugin | Unix/linux
 ![Logo Cross-Platform Command Execution Plugin](logo-cmd.png) | soon! | Windows
 
 ## Installation
