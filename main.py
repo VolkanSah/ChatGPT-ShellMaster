@@ -6,7 +6,6 @@ import requests
 import quart
 import quart_cors
 from quart import request
-#import subprocess
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
