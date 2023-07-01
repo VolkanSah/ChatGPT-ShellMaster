@@ -1,9 +1,9 @@
 {
     "schema_version": "v1",
     "name_for_human": "ChatGPT ShellMaster",
-    "name_for_model": "Shell Command Plugin",
-    "description_for_human": "Plugin for executing cli commands on the host .",
-    "description_for_model": "Plugin for executing cli commands on the host System like Linux / Unix . Output the results as markdown.",
+    "name_for_model": "Command",
+    "description_for_human": "Plugin for executing commands on the host.",
+    "description_for_model": "Plugin for executing cli commands on the host system like Linux / Unix . Output the results as markdown.",
     "auth": {
       "type": "none"
     },
@@ -13,6 +13,6 @@
       "is_user_authenticated": false
     },
     "logo_url": "http://localhost:5004/logo.png",
-    "contact_email": "info@aicodecraft.io",
-    "legal_info_url": "info@aicodecraft.io/legal.html"
+    "contact_email": "plugins@aicodecraft.io",
+    "legal_info_url": "https://aicodecraft.io/plugin-legal.html"
   }
