@@ -5,13 +5,6 @@ ChatGPT ShellMaster is a cross-platform (unix/linux) plugin that enables command
 
 See [ChatGPT Shellmaster in GPT4](img/shellmaster.png)
 
-## Thank you for your support!
-If you appreciate my work, please consider supporting me:
-
-- Become a Sponsor: [Link to my sponsorship page](https://github.com/sponsors/volkansah)
-- :star: my projects: Starring projects on GitHub helps increase their visibility and can help others find my work. 
-- Follow me: Stay updated with my latest projects and releases.
-
 ## Features
 - Execute any Linux/Unix command directly from the ChatGPT interface, effectively transforming your chat into a powerful command-line interface.
 - Commands are executed asynchronously, allowing for efficient handling of multiple commands simultaneously, which can greatly aid in debugging and monitoring tasks.
@@ -62,6 +55,13 @@ Please be aware that this plugin executes commands as-is, without any sanitizati
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request.
+
+## Thank you for your support!
+If you appreciate my work, please consider supporting me:
+
+- Become a Sponsor: [Link to my sponsorship page](https://github.com/sponsors/volkansah)
+- :star: my projects: Starring projects on GitHub helps increase their visibility and can help others find my work. 
+- Follow me: Stay updated with my latest projects and releases.
 
 ## License
 This project is licensed under the "Help the World Grow ❤️ " License . See the [LICENSE](LICENSE) file for details.
