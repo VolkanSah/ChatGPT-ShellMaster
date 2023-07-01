@@ -25,17 +25,24 @@ pip install quart-cors
 Configure the working directory for command execution by editing the settings.json file. The default is /tmp, which is recommended for its safety and security. However, you can modify it as per your needs, ensuring the new directory has a minimum chmod of 700.
 
 ## Usage
-To use this plugin, you need to send a POST request to the /command endpoint of the server. The request should contain a JSON body with a command field, which is the command you want to execute.
+To get started, run the plugin using the following command:
 
-### Example:
+```python
+python3 main.py
+```
+Next, navigate to your ChatGPT Plus Account. Under Settings, enable the Developer Tools ([see image for reference](img/settings.png)). Switch to the GPT-4 tab and then proceed to the Plugin Store. At the bottom of the Plugin Store page, you'll find a link titled "Develop your own plugin" ([see image](img/pluginshop.png)). Click on this link and enter your information as required.
 
+In my example, I used localhost:5004. You can use another port such as 2323 or 8080, but please ensure that your firewall or security software isn't blocking the connection ([see image](img/load.png)).
+
+To use this plugin, you'll need to send a POST request to the /command endpoint of the server. The request should contain a JSON body with a command field, representing the command you wish to execute.
+
+Example:
 ```json
 {
   "command": "echo 'Hello, World!'"
 }
 ```
-
-Or, to streamline your workflow, you can simply say to ChatGPT "You have access to my CLI, please execute ...", and the rest is handled for you!
+Alternatively, you can simplify your workflow by directly instructing ChatGPT, saying: "You have access to my CLI, please execute ...". The rest will be taken care of for you!
 
 The server will execute the command and return the output. If the command fails, the server will return an error message.
 
