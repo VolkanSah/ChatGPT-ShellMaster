@@ -59,3 +59,7 @@ Contributions are welcome! Please feel free to submit a pull request.
 ## License
 This project is licensed under the "Help the World Grow ❤️ " License . See the [LICENSE](LICENSE) file for details.
 
+## Copyright
+[Volkan Kücükbudak](https://gihub.com/volkansah)
+[Link to ChatGPT Shellmaster](https://github.com/VolkanSah/ChatGPT-ShellMaster/)
+
