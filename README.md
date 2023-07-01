@@ -7,6 +7,13 @@ ChatGPT ShellMaster is a cross-platform plugin that enables command-line interac
 - Fetch files with commands like wget, analyze them, and store the results - all interactively from your chat.
 - The working directory for command execution can be configured, providing flexibility while maintaining security precautions.
 - Designed to work with temporary directories, enhancing security and reducing the risk of unintentional file manipulation.
+
+### Overview
+Logo | Name | System
+-- | -- | --
+![Logo Cross-Platform Command Execution Plugin](logo.png) |  Cross-Platform Command Execution Plugin | Unix/linux
+![Logo Cross-Platform Command Execution Plugin](logo-cmd.png) | soon! | Windows
+
 ## Installation
 - Clone this repository to your local machine.
 - Install the required Python modules.
@@ -41,8 +48,3 @@ Contributions are welcome! Please feel free to submit a pull request.
 ## License
 This project is licensed under the "Help the World Grow ❤️ " License . See the [LICENSE](LICENSE) file for details.
 
-## Overview
-Logo | Name | System
--- | -- | --
-![Logo Cross-Platform Command Execution Plugin](logo.png) |  Cross-Platform Command Execution Plugin | Unix/linux
-![Logo Cross-Platform Command Execution Plugin](logo-cmd.png) | soon! | Windows
