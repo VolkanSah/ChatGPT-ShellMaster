@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: ChatGPT-ShellMaster
+  title: ChatGPT ShellMaster
   description: A plugin that executes a Linux/Unix commands on the host PC using ChatGPT Plus.
   version: 'v1'
   x-logo:
