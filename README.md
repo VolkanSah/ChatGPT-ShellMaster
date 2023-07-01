@@ -1,5 +1,6 @@
 # ChatGPT-ShellMaster (ChatGPT 4 Plugin)
-[ChatGPT Shellmaster](img/chatgpt-shellmaster.png)
+![ChatGPT Shellmaster](img/chatgpt-shellmaster.png)
+
 ChatGPT ShellMaster is a cross-platform (unix/linux) plugin that enables command-line interactions via chat using OpenAI's ChatGPT 4. This powerful tool allows you to run scripts, manage files, and monitor processes directly from your chat interface. It's an excellent tool for developers, making tasks like debugging and file analysis more interactive and intuitive. 
 
 "Please note that access to a developer account and ChatGPT Plus are required to use this plugin. Remember to use this responsibly, being mindful of the security implications".
