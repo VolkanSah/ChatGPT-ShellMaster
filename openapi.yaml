@@ -1,0 +1,36 @@
+openapi: 3.0.1
+info:
+  title: ChatGPT-ShellMaster
+  description: A plugin that executes a Linux/Unix commands on the host PC using ChatGPT Plus.
+  version: 'v1'
+  x-logo:
+    url: "file://logo.png"
+servers:
+  - url: http://localhost:5004
+paths:
+  /command:
+    post:
+      operationId: executeCommand
+      summary: Execute a Linux/Unix command
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                command:
+                  type: string
+                  description: The command to execute. Be careful, commands are executed as is.
+      responses:
+        "200":
+          description: Command executed successfully
+          content:
+            text/plain:
+              schema:
+                type: string
+                description: The output of the command.
+        "400":
+          description: Invalid request, command not provided
+        "500":
+          description: An error occurred while executing the command
