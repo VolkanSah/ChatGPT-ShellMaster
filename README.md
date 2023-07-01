@@ -39,4 +39,4 @@ Please be aware that this plugin executes commands as-is, without any sanitizati
 Contributions are welcome! Please feel free to submit a pull request.
 
 ## License
-This project is licensed under the "Help the World Grow" License. See the ![LICENSE] file for details.
+This project is licensed under the "Help the World Grow ❤️ " License . See the [LICENSE](LICENSE) file for details.
