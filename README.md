@@ -74,5 +74,6 @@ This project is licensed under the "Help the World Grow ❤️ " License . See t
 
 ## Copyright
 [Volkan Kücükbudak](https://gihub.com/volkansah)
+
 [Link to ChatGPT Shellmaster](https://github.com/VolkanSah/ChatGPT-ShellMaster/)
 
