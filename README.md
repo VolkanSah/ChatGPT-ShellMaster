@@ -9,7 +9,7 @@ That's where ChatGPT ShellMaster comes in. It brings the power of the terminal t
 
 "Please note that access to a developer account and ChatGPT Plus are required to use this plugin. And as with all powerful tools, remember to use this responsibly, keeping in mind the security implications."
 
-See [ChatGPT Shellmaster in GPT4](img/shellmaster0.png)
+See [ChatGPT Shellmaster in GPT4](img/shellmaster.png)
 
 ## Features
 - Execute any Linux/Unix command directly from the ChatGPT interface, effectively transforming your chat into a powerful command-line interface.
