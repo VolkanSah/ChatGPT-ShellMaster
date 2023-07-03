@@ -7,7 +7,7 @@ The command line, or terminal, is an incredibly powerful tool for any developer.
 
 That's where ChatGPT ShellMaster comes in. It brings the power of the terminal to the more familiar and intuitive environment of chat. Tasks such as debugging and file analysis become more interactive and engaging. By using a language model trained on a diverse range of internet text, it can even provide helpful suggestions and explainers, guiding you as you work.
 
-"Please note `this is a Plugin for ChatGPT Plus!` and need access to a developer account and ChatGPT Plus Account are required to use this plugin. And as with all powerful tools, remember to use this responsibly, keeping in mind the security implications."
+:warn: Please note that this is a plugin for ChatGPT Plus! In order to use it, you'll need access to both a developer account and a ChatGPT Plus Account. As with all powerful tools, remember to use this responsibly and always be mindful of the potential security implications.
 
 See [ChatGPT ShellMaster in ChatGPT Plus with GPT4](img/shellmaster0.png)
 
