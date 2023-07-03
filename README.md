@@ -62,7 +62,7 @@ Please be aware that this plugin executes commands as-is, without any sanitizati
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request.
 
-## Thank you for your support!
+## ❤️ Thank you for your support!
 If you appreciate my work, please consider supporting me:
 
 - Become a Sponsor: [Link to my sponsorship page](https://github.com/sponsors/volkansah)
@@ -70,7 +70,7 @@ If you appreciate my work, please consider supporting me:
 - Follow me: Stay updated with my latest projects and releases.
 
 
-## other GPT stuff 👣
+### other GPT stuff 👣
 - [GPT-Security-Best-Practices](https://github.com/VolkanSah/GPT-Security-Best-Practices)
 - [OpenAi cost calculator](https://github.com/VolkanSah/OpenAI-Cost-Calculator)
 - [GPT over CLI](https://github.com/VolkanSah/GPT-over-CLI)
@@ -78,9 +78,10 @@ If you appreciate my work, please consider supporting me:
 - [Comments Reply with GPT (davinci3)](https://github.com/VolkanSah/GPT-Comments-Reply-WordPress-Plugin)
 - [Basic GPT Webinterface](https://github.com/VolkanSah/GPT-API-Integration-in-HTML-CSS-with-JS-PHP)
 
-## License
-This project is licensed under the "Help the World Grow [💔](https://jugendamt-deutschland.de) " License . See the [LICENSE](LICENSE) file for details  
 
 ## Copyright
 - [Volkan Kücükbudak //NCF](https://gihub.com/volkansah)
 - [Link to ChatGPT Shellmaster](https://github.com/VolkanSah/ChatGPT-ShellMaster/)
+
+## License
+This project is licensed under the "Help the World Grow [💔](https://jugendamt-deutschland.de) " License . See the [LICENSE](LICENSE) file for details 
