@@ -76,3 +76,10 @@ This project is licensed under the "Help the World Grow [💔](https://jugendamt
 - [Volkan Kücükbudak //NCF](https://gihub.com/volkansah)
 - [Link to ChatGPT Shellmaster](https://github.com/VolkanSah/ChatGPT-ShellMaster/)
 
+## other GPT stuff 👣
+- [GPT-Security-Best-Practices](https://github.com/VolkanSah/GPT-Security-Best-Practices)
+- [OpenAi cost calculator](https://github.com/VolkanSah/OpenAI-Cost-Calculator)
+- [GPT over CLI](https://github.com/VolkanSah/GPT-over-CLI)
+- [Secure Implementation of Artificial Intelligence (AI)](https://github.com/VolkanSah/Implementing-AI-Systems-Whitepaper)
+- [Comments Reply with GPT (davinci3)](https://github.com/VolkanSah/GPT-Comments-Reply-WordPress-Plugin)
+- [Basic GPT Webinterface](https://github.com/VolkanSah/GPT-API-Integration-in-HTML-CSS-with-JS-PHP) 
