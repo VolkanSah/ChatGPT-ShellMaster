@@ -70,7 +70,7 @@ If you appreciate my work, please consider supporting me:
 - Follow me: Stay updated with my latest projects and releases.
 
 
-### other GPT stuff 👣
+### 👣 other GPT stuff 
 - [GPT-Security-Best-Practices](https://github.com/VolkanSah/GPT-Security-Best-Practices)
 - [OpenAi cost calculator](https://github.com/VolkanSah/OpenAI-Cost-Calculator)
 - [GPT over CLI](https://github.com/VolkanSah/GPT-over-CLI)
@@ -79,9 +79,9 @@ If you appreciate my work, please consider supporting me:
 - [Basic GPT Webinterface](https://github.com/VolkanSah/GPT-API-Integration-in-HTML-CSS-with-JS-PHP)
 
 
-## Copyright
+### Copyright
 - [Volkan Kücükbudak //NCF](https://gihub.com/volkansah)
 - [Link to ChatGPT Shellmaster](https://github.com/VolkanSah/ChatGPT-ShellMaster/)
 
-## License
+### License
 This project is licensed under the "Help the World Grow [💔](https://jugendamt-deutschland.de) " License . See the [LICENSE](LICENSE) file for details 
