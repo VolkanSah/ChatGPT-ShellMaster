@@ -73,6 +73,6 @@ If you appreciate my work, please consider supporting me:
 This project is licensed under the "Help the World Grow [💔](https://jugendamt-deutschland.de) " License . See the [LICENSE](LICENSE) file for details  
 
 ## Copyright
-- [Volkan Kücükbudak](https://gihub.com/volkansah)
+- [Volkan Kücükbudak //NCF](https://gihub.com/volkansah)
 - [Link to ChatGPT Shellmaster](https://github.com/VolkanSah/ChatGPT-ShellMaster/)
 
