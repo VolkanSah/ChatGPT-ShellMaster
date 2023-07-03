@@ -69,12 +69,6 @@ If you appreciate my work, please consider supporting me:
 - :star: my projects: Starring projects on GitHub helps increase their visibility and can help others find my work. 
 - Follow me: Stay updated with my latest projects and releases.
 
-## License
-This project is licensed under the "Help the World Grow [💔](https://jugendamt-deutschland.de) " License . See the [LICENSE](LICENSE) file for details  
-
-## Copyright
-- [Volkan Kücükbudak //NCF](https://gihub.com/volkansah)
-- [Link to ChatGPT Shellmaster](https://github.com/VolkanSah/ChatGPT-ShellMaster/)
 
 ## other GPT stuff 👣
 - [GPT-Security-Best-Practices](https://github.com/VolkanSah/GPT-Security-Best-Practices)
@@ -82,4 +76,11 @@ This project is licensed under the "Help the World Grow [💔](https://jugendamt
 - [GPT over CLI](https://github.com/VolkanSah/GPT-over-CLI)
 - [Secure Implementation of Artificial Intelligence (AI)](https://github.com/VolkanSah/Implementing-AI-Systems-Whitepaper)
 - [Comments Reply with GPT (davinci3)](https://github.com/VolkanSah/GPT-Comments-Reply-WordPress-Plugin)
-- [Basic GPT Webinterface](https://github.com/VolkanSah/GPT-API-Integration-in-HTML-CSS-with-JS-PHP) 
+- [Basic GPT Webinterface](https://github.com/VolkanSah/GPT-API-Integration-in-HTML-CSS-with-JS-PHP)
+
+## License
+This project is licensed under the "Help the World Grow [💔](https://jugendamt-deutschland.de) " License . See the [LICENSE](LICENSE) file for details  
+
+## Copyright
+- [Volkan Kücükbudak //NCF](https://gihub.com/volkansah)
+- [Link to ChatGPT Shellmaster](https://github.com/VolkanSah/ChatGPT-ShellMaster/)
