@@ -23,7 +23,7 @@ See [ChatGPT ShellMaster in ChatGPT Plus with GPT4](img/shellmaster0.png)
 Logo | Name | System
 -- | -- | --
 ![Logo Cross-Platform Command Execution Plugin](logo.png) |  ChatGPT-ShellMaster Cross-Platform Command Execution Plugin | Unix/linux
-![Logo Cross-Platform Command Execution Plugin](logo-cmd.png) | soon! PowerShell is kindergarten | Windows
+![Logo Cross-Platform Command Execution Plugin](logo-cmd.png) | sorry will not create it, PowerShell makes to much errors! | Windows
 
 ## Installation
 - Clone this repository to your local machine.
