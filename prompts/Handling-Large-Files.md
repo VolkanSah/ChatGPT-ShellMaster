@@ -17,8 +17,6 @@ To ensure continuity in the task, all the necessary information about the curren
 
 This approach provides an efficient way of processing large files or extensive amounts of data, while respecting the token limitations of ChatGPT and the access restrictions of the system.
 
-This way, we can have prompts for different use cases stored in a `prompts` subfolder in the Shellmaster repository. Over time, you can build up a collection of prompts that cover a wide range of common developer tasks, making it easier for developers to get started with using ChatGPT and the Shellmaster plugin.
-
 have fun with it. Volkan Sah 😄
 
 
