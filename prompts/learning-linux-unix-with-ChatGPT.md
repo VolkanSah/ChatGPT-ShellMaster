@@ -2,7 +2,7 @@
 
 ChatGPT combined with the Shellmaster plugin provides a unique and interactive way to learn Linux/Unix systems. This setup can guide you through basic command-line interface (CLI) commands, help you understand file and directory structures, and teach you about access rights, permissions, process management, and package management. It's like having a tutor at your fingertips.
 
-Before starting, please ensure the "tmpPath" in the settings.json file is set to the root directory ("/"). Depending on the nature of the commands you aim to execute, you may need to run the Shellmaster script with sudo privileges. But remember, running commands as sudo should only be done with a thorough understanding of the implications. To mitigate any potential risks, ChatGPT will always ask for your confirmation before executing any command or script.
+Before starting, please ensure the /"tmp Path" in the settings.json file is set to the root directory ("/"). Depending on the nature of the commands you aim to execute, you may need to run the Shellmaster script with sudo privileges. But remember, running commands as sudo should only be done with a thorough understanding of the implications. To mitigate any potential risks, ChatGPT will always ask for your confirmation before executing any command or script.
 ### Here is a sample prompt:
 
 ```json
