@@ -1,29 +1,33 @@
-# :star: ChatGPT-ShellMaster (ChatGPT 4 Plugin) :star:
+# ⭐ ChatGPT-ShellMaster (ChatGPT 4 Plugin) ⭐
 #### checked 05.07.2023 (works well)
 ![ChatGPT Shellmaster](img/chatgpt-shellmaster1.png)
+ChatGPT ShellMaster is a cross-platform (unix/linux) plugin for OpenAI's ChatGPT 4. Transform your chat into a powerful command-line interface (CLI) for executing scripts, managing files, and monitoring processes.
 
-ChatGPT ShellMaster is a cross-platform (unix/linux) plugin that brings command-line interactions right into chat using OpenAI's ChatGPT 4. This powerful tool enables you to run scripts, manage or create files, and monitor processes directly from your chat interface.
-
-The command line, or terminal, is an incredibly powerful tool for any developer. With a wide range of commands at your disposal, you can manipulate files, manage system processes, connect to remote servers, and much more. Despite its power, the command line can often be a challenging and intimidating environment, particularly for those new to it.
-
-That's where ChatGPT ShellMaster comes in. It brings the power of the terminal to the more familiar and intuitive environment of chat. Tasks such as debugging and file analysis become more interactive and engaging. By using a language model trained on a diverse range of internet text, it can even provide helpful suggestions and explainers, guiding you as you work.
+ChatGPT ShellMaster leverages the strength of CLI while offering a friendly and intuitive chat environment, making complex tasks more interactive and approachable.
 
 ⚠️ Please note that this is a plugin for ChatGPT Plus! In order to use it, you'll need access to both a developer account and a ChatGPT Plus Account. As with all powerful tools, remember to use this responsibly and always be mindful of the potential security implications.
 
 See [ChatGPT ShellMaster in ChatGPT Plus with GPT4](img/shellmaster0.png)
 
 ## Features
-- Execute any Linux/Unix command directly from the ChatGPT interface, effectively transforming your chat into a powerful command-line interface.
-- Commands are executed asynchronously, allowing for efficient handling of multiple commands simultaneously, which can greatly aid in debugging and monitoring tasks.
-- Fetch files with commands like wget, analyze them, and store the results - all interactively from your chat.
-- The working directory for command execution can be configured, providing flexibility while maintaining security precautions.
-- Designed to work with temporary directories, enhancing security and reducing the risk of unintentional file manipulation.
+
+- Execute Linux/Unix commands directly from the ChatGPT interface.
+- Handle multiple commands simultaneously with asynchronous execution.
+- Fetch, analyze, and store files interactively from your chat.
+- Configure the working directory for command execution for flexibility and security.
+- Works with temporary directories to reduce risk of unintentional file manipulation.
+- Learn Linux/Unix systems with interactive guides.
+
+## useful secure Prompts
+- [Handling Large Files](https://github.com/VolkanSah/ChatGPT-ShellMaster/blob/main/prompts/Handling-Large-Files.md)
+- [Analyzing and Managing Log Files](https://github.com/VolkanSah/ChatGPT-ShellMaster/blob/main/prompts/Analyzing-and-Managing-Log-Files.md)
+- [Learning Linux/Unix with ChatGPT and Shellmaster Plugin](https://github.com/VolkanSah/ChatGPT-ShellMaster/blob/main/prompts/learning-linux-unix-with-ChatGPT.md)
 
 ### Overview
 Logo | Name | System
 -- | -- | --
 ![Logo Cross-Platform Command Execution Plugin](logo.png) |  ChatGPT-ShellMaster Cross-Platform Command Execution Plugin | Unix/linux
-![Logo Cross-Platform Command Execution Plugin](logo-cmd.png) | sorry will not create it, PowerShell makes to much errors! | Windows
+![Logo Cross-Platform Command Execution Plugin](logo-cmd.png) | sorry will not create it???, PowerShell makes to much errors! | Windows
 
 ## Installation
 - Clone this repository to your local machine.
