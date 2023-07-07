@@ -1,4 +1,4 @@
-# Handling Large Files and Data with ChatGPT and the Shellmaster Plugin
+# Handling Large Files and Data with ChatGPT Plus and the Shellmaster Plugin
 
 Developers often need to process large files or vast amounts of data, such as lengthy PDFs, Excel files with many rows, or extensive Word documents. Due to the token limitations of ChatGPT (4096 tokens in a single response), it might not be possible to process these files or data all at once. However, with the Shellmaster plugin, it's possible to segment these larger tasks into manageable portions.
 
