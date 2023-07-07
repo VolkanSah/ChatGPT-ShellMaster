@@ -19,3 +19,5 @@ Remember that for ChatGPT to assist with analyzing log files, the user needs to 
 By using ChatGPT and the Shellmaster plugin in this way, system administrators can save significant time and effort when analyzing log files, allowing them to focus on resolving issues and enhancing system security.
 
 Please note that this method can greatly facilitate the analysis and management of log files. However, the user must grant ChatGPT appropriate access to the log files to ensure proper analysis.
+
+have fun with it. Volkan Sah 😄
