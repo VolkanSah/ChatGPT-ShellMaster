@@ -1,4 +1,4 @@
-# Analyzing and Managing Log Files 
+## Analyzing and Managing Log Files 
 ### with ChatGPT and the Shellmaster Plugin
 
 For system administrators, one of the most challenging tasks is dealing with large log files, especially when trying to diagnose issues or detect suspicious activities. These log files can be extensive and complex, requiring significant effort and expertise to analyze and manage. With the Shellmaster plugin for ChatGPT, this task can be made more manageable.
