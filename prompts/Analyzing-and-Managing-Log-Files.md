@@ -1,11 +1,10 @@
-## Analyzing and Managing Log Files 
-### with ChatGPT and the Shellmaster Plugin
+### Analyzing and Managing Log Files with ChatGPT and the Shellmaster Plugin
 
 For system administrators, one of the most challenging tasks is dealing with large log files, especially when trying to diagnose issues or detect suspicious activities. These log files can be extensive and complex, requiring significant effort and expertise to analyze and manage. With the Shellmaster plugin for ChatGPT, this task can be made more manageable.
 
 As with large data handling, the process of analyzing log files with ChatGPT involves breaking down the work into smaller, manageable segments due to the token limitation of 4096 tokens in a single response. ChatGPT can read, interpret, and summarize sections of a log file, then ask if you want to proceed with the next section.
 
-Here is an example of a prompt you could use:
+### Here is an example of a prompt you could use:
 
 ```json
 {
