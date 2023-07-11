@@ -60,6 +60,7 @@ Example:
 Alternatively, you can simplify your workflow by directly instructing ChatGPT, saying: "You have access to my CLI, please execute ...". The rest will be taken care of for you!
 
 The server will execute the command and return the output. If the command fails, the server will return an error message.
+- An overview of effective commands for Python what can be used from ChatGPT too to work faster with asynchron-processes [Link](https://github.com/VolkanSah/Python-Command-Overview-for-handling-files).
 
 ## Security
 Please be aware that this plugin executes commands as-is, without any sanitization or security checks. Make sure to only use it in a secure and controlled environment, and do not expose the server to the public internet. This ChatGPT Plugin is designed for developers, and should not be deployed on production servers! Use it only on localhost!
