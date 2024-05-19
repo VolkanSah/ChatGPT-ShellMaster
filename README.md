@@ -92,3 +92,4 @@ If you appreciate my work, please consider supporting me:
 
 ### License
 This project is licensed under the "Help the World Grow [💔](https://jugendamt-deutschland.de) " License . See the [LICENSE](LICENSE) file for details 
+[Source of this resposerity](https://github.com/VolkanSah/ChatGPT-ShellMaster)
