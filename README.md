@@ -23,11 +23,6 @@ See [ChatGPT ShellMaster in ChatGPT Plus with GPT4](img/shellmaster0.png)
 - [Analyzing and Managing Log Files](https://github.com/VolkanSah/ChatGPT-ShellMaster/blob/main/prompts/Analyzing-and-Managing-Log-Files.md)
 - [Learning Linux/Unix with ChatGPT and Shellmaster Plugin](https://github.com/VolkanSah/ChatGPT-ShellMaster/blob/main/prompts/learning-linux-unix-with-ChatGPT.md)
 
-### Overview
-Logo | Name | System
--- | -- | --
-![Logo Cross-Platform Command Execution Plugin](logo.png) |  ChatGPT-ShellMaster Cross-Platform Command Execution Plugin | Unix/linux
-![Logo Cross-Platform Command Execution Plugin](logo-cmd.png) | sorry will not create it???, PowerShell makes to much errors! | Windows
 
 ## Installation
 - Clone this repository to your local machine.
