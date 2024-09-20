@@ -19,7 +19,7 @@ ChatGPT ShellMaster is a cross-platform (Windows/Unix/Linux) integration for Ope
 
 2. **Access the Custom GPT Link:**
    - Click on the link below to access the Custom GPT integration. Provide your local server's IP address and port (e.g., `localhost:5000`) to establish the connection.
-   - [GPT ShellMaster Link](#) (Link to be provided)
+   - [GPT ShellMaster Link](#) (soon!)
 
 3. **Establish the Connection:**
    - Once connected, you can use ChatGPT to interact with your local environment. The GPT will send HTTP requests to your local server to execute commands, read files, and manage directories.
