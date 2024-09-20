@@ -1,5 +1,5 @@
 
-# ⭐ ChatGPT-ShellMaster (Custom GPT Integration) ⭐
+# ⭐ ShellMaster (Custom GPT Integration) ⭐
 #### Updated 20.09.2024 dev-status!
 
 ![ChatGPT Shellmaster](img/chatgpt-shellmaster1.png)
