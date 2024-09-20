@@ -1,86 +1,86 @@
+from quart import Quart, request, jsonify, send_file
 import asyncio
+import os
 import sys
-import json
-import logging
-import requests
-import quart
-import quart_cors
-from quart import request
 
-# Set up logging
-logging.basicConfig(level=logging.INFO)
+app = Quart(__name__)
 
-# Load settings
-with open("settings.json") as f:
-    settings = json.load(f)
-cwd = settings.get("working_directory", ".")
+# Betriebssystem erkennen und Arbeitsverzeichnis festlegen
+if sys.platform.startswith('win'):
+    # Windows
+    cwd = "C:\\Users\\DeinBenutzername\\Documents"  # Beispielpfad für Windows
+    shell = True  # Shell-Befehl für Windows
+else:
+    # Linux/Unix
+    cwd = "/home/username"  # Beispielpfad für Unix/Linux
+    shell = "/bin/bash"  # Shell-Befehl für Unix/Linux
 
-app = quart_cors.cors(quart.Quart(__name__), allow_origin="https://chat.openai.com")
-
-
-@app.get("/logo.png")
-async def plugin_logo():
+@app.route('/read_file', methods=['POST'])
+async def read_file():
     """
-    Serve the plugin logo.
-
-    This function returns the logo.png file to the client.
+    Liest den Inhalt einer Datei und gibt ihn zurück.
     """
-    filename = "logo.png"
-    return await quart.send_file(filename, mimetype="image/png")
+    data = await request.get_json()
+    file_path = data.get("file_path")
+    
+    if not file_path or not os.path.isfile(file_path):
+        return jsonify({"error": "Invalid file path"}), 400
+    
+    try:
+        return await send_file(file_path)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
-@app.post("/command")
+@app.route('/list_directory', methods=['POST'])
+async def list_directory():
+    """
+    Gibt die Liste der Dateien und Verzeichnisse im angegebenen Pfad zurück.
+    """
+    data = await request.get_json()
+    directory_path = data.get("directory_path", cwd)
+    
+    if not os.path.isdir(directory_path):
+        return jsonify({"error": "Invalid directory path"}), 400
+    
+    try:
+        files = os.listdir(directory_path)
+        return jsonify({"files": files}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/command', methods=['POST'])
 async def command():
     """
-    Execute a shell command and return the output.
-
-    This function receives a JSON request with a "command" field, executes the command,
-    and returns the output. If the command fails, the function returns the error message.
+    Führt einen Shell-Befehl aus und gibt die Ausgabe zurück.
     """
     data = await request.get_json()
     command = data.get("command")
+    
     if not command:
-        return quart.Response(response="No command provided", status=400)
-    logging.info(f"Received command: {command}")
-
-    # Use asyncio to execute the command
-    process = await asyncio.create_subprocess_shell(
-        command,
-        stdout=asyncio.subprocess.PIPE,
-        stderr=asyncio.subprocess.PIPE,
-        cwd=cwd)
-
-    stdout, stderr = await process.communicate()
-
-    # Check for errors
-    if process.returncode != 0:
-        return quart.Response(response=stderr.decode("utf-8"), status=500)
+        return jsonify({"error": "No command provided"}), 400
+    
+    # Plattformabhängige Anpassung des Befehls
+    if sys.platform.startswith('win'):
+        process = await asyncio.create_subprocess_shell(
+            command,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+            cwd=cwd
+        )
     else:
-        return quart.Response(response=stdout.decode("utf-8"), status=200)
+        process = await asyncio.create_subprocess_exec(
+            shell, '-c', command,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+            cwd=cwd
+        )
+    
+    stdout, stderr = await process.communicate()
+    
+    if process.returncode != 0:
+        return jsonify({"error": stderr.decode()}), 500
+    
+    return jsonify({"result": stdout.decode()}), 200
 
-
-@app.get("/.well-known/ai-plugin.json")
-async def plugin_manifest():
-    """
-    Serve the plugin manifest.
-
-    This function reads the ai-plugin.json file and returns it to the client.
-    """
-    with open("./.well-known/ai-plugin.json") as f:
-        text = f.read()
-        return quart.Response(text, mimetype="text/json")
-
-
-@app.get("/openapi.yaml")
-async def openapi_spec():
-    """
-    Serve the OpenAPI specification.
-
-    This function reads the openapi.yaml file and returns it to the client.
-    """
-    with open("openapi.yaml") as f:
-        text = f.read()
-        return quart.Response(text, mimetype="text/yaml")
-
-if __name__ == "__main__":
-    # Run the Quart application
-    app.run(debug=True, host="0.0.0.0", port=5004)
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=5004)
