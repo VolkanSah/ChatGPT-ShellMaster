@@ -1,5 +1,5 @@
 # ⭐ ChatGPT-ShellMaster (ChatGPT 4 Plugin) ⭐
-#### checked 03.03.2024 (works well)
+#### Note! OpenAi`s ChatGPT do not support plugins anymore! 
 ![ChatGPT Shellmaster](img/chatgpt-shellmaster1.png)
 
 
