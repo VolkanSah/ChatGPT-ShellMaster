@@ -1,3 +1,9 @@
+> ⚠️ **Prior Art Notice:** This project was publicly released in July 2023 
+> under MIT license, intentionally documenting the technique of LLM-driven 
+> local shell execution via API. Released freely to prevent proprietary claims.
+
+
+
 # ⭐ ChatGPT-ShellMaster (ChatGPT 4 Plugin) ⭐
 #### Note! OpenAi`s ChatGPT do not support plugins anymore! 
 ![ChatGPT Shellmaster](img/chatgpt-shellmaster1.png)
