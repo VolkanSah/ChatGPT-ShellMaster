@@ -5,7 +5,16 @@
 
 
 # ⭐ ChatGPT-ShellMaster (ChatGPT 4 Plugin) ⭐
-#### Note! OpenAi`s ChatGPT do not support plugins anymore! 
+
+
+
+> [!IMPORTANT]
+> Note! OpenAi`s ChatGPT do not support plugins anymore!
+>
+> Start crafting solution in 2026/2027 see here [Shellmaster](https://github.com/VolkanSah/Shellmaster)
+
+
+#### 
 ![ChatGPT Shellmaster](img/chatgpt-shellmaster1.png)
 
 
